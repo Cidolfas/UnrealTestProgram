@@ -1,6 +1,6 @@
 This is a pretty minimal "Hello world!" version of a standalone Unreal program showing a Slate window.
 
-To use: drop this whole folder your game's [Project Folder]/Source directory, go back up to your game's .uproject, right-click and Generate Project Files.
+To use: drop contents of this folder into a [Project Folder]/Source/TestProgram directory, go back up to your game's .uproject, right-click and Generate Project Files.
 
 In your IDE set TestProgram as your build project and hit Run or Debug to build/run it. The generated .exe will be at [Project Folder]/Binaries/Win64/TestProgram.exe
 
