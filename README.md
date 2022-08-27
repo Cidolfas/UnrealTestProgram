@@ -4,6 +4,8 @@ To use: drop contents of this folder into a [Project Folder]/Source/TestProgram 
 
 In your IDE set TestProgram as your build project and hit Run or Debug to build/run it. The generated .exe will be at [Project Folder]/Binaries/Win64/TestProgram.exe
 
+It appears to build if you're also building the engine from source, even though it does not require any modifications to the engine to work.
+
 I don't know how to package this up into something you can distribute by itself yet.
 
 Most of this code is based around the SlateViewer program in the Engine/Source/Programs directory.
