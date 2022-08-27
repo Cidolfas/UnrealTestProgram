@@ -1,6 +1,10 @@
 This is a pretty minimal "Hello world!" version of a standalone Unreal program showing a Slate window.
 
-To use drop this whole folder into the LyraStaterGame/Source folder, go back up a folder to the LyraStarterGame.uproject, right-click and Generate Project Files. In your editor set TestProgram as your build target and hit Run or Debug.
+To use: drop this whole folder your game's [Project Folder]/Source directory, go back up to your game's .uproject, right-click and Generate Project Files.
+
+In your IDE set TestProgram as your build project and hit Run or Debug to build/run it. The generated .exe will be at [Project Folder]/Binaries/Win64/TestProgram.exe
+
+I don't know how to package this up into something you can distribute by itself yet.
 
 Most of this code is based around the SlateViewer program in the Engine/Source/Programs directory.
 
